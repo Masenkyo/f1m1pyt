@@ -13,7 +13,7 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("Let's play Hangman!")
+    print("Let's play Hangman! Guess the word by guessing letters that are in the word, u can only fail a few times before losing the game! . U can see what letters you have guessed already by just typing one in it will say that u have already typed it so you dont lose any unnessecary points! U win by guessing all the letters in the word! Good luck have fun!")
     print(display_hangman(tries))
     print(word_completion)
     print("\n")
